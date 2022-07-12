@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  box-shadow: 1px 1px 1px #eee;
+}
+
+.heading{
+  
+  color: #888;
+    
+}
+div.link{
+  margin-right: 10px;
+}
+div.link a{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+div.link a:hover{
+  color: brown;
+  border-bottom: 1px solid brown;
+}
+
+
+
+.im {
+  color: brown;
+}
+.intro {
+  text-align: center;
+  color: #444;
+  font-size: 1.5em;
+}
+.form-container {
+  height: 80vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form {
+  width: 350px;
+  height: 333px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px #ddd;
+  border-radius: 10px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-size: 1.3em;
+  color: #ddd;
+}
+
+input[type='file'] {
+  padding: 10px;
+  border: none;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid red;
+  border: none;
+  background-color: rgb(165, 42, 42);
+  color: white;
+  font-size: 1.2em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.msg {
+  padding: 5px;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  visibility: hidden;
+  text-align: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: rgb(0, 128, 0);
+}
+
+.footer {
+  height: 3vh;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}

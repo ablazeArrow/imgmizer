@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <h1 class="heading"> <span class="im">im</span>g<span class="im">mi</span>zer </h1>
+        <div class="link"> 
+          <a href="./gallery.html">gallery</a>
+        </div>
+      </div>
+
+      <p class="msg">Message</p>
+
+      <div class="form-container">
+        <form action="/upload" method="post" id="form" enctype="multipart/form-data" >
+          <p class="intro">Choose Photo To Optimize</p>
+          <input type="text" name="width"  class="width"  
+          placeholder="Widthــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ" />
+          <input type="text" name="height" class="height" 
+          placeholder="Heightــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ" />
+          <input type="file" name="avatar" id="avatar" />
+          <button type="submit" class="btn">Send</button>
+        </form>
+        
+        <footer class="footer"> <sup>&copy;</sup>2022 imgmizer - Saber Kassem Ali </footer>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
